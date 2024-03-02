@@ -22,7 +22,7 @@ useHead({
           <UButton color="blue">Try it free</UButton>
         </NuxtLink>
       </div>
-      <NuxtImg width="802" heigh="388" src="/hero.webp" />
+      <NuxtImg width="802" heigh="388" src="https://links.shoha-coder.uz/jira/hero.webp" />
     </section>
     <!-- Tab section -->
     <section>
@@ -133,7 +133,7 @@ useHead({
                 simple, customize as you go.
               </p>
             </div>
-            <NuxtImg src="/product.webp" />
+            <NuxtImg src="https://links.shoha-coder.uz/jira/product.webp" />
           </div>
         </div>
       </div>

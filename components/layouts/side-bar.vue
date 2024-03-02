@@ -4,7 +4,7 @@
   >
     <div class="flex flex-col space-y-6">
       <NuxtLink to="/" class="flex items-center space-x-1 justify-center">
-        <NuxtImg src="/logo.svg" width="50" height="50" />
+        <NuxtImg src="https://links.shoha-coder.uz/jira/logo.svg" width="50" height="50" />
         <span class="text-2xl font-medium">Jira Software</span>
       </NuxtLink>
       <div>

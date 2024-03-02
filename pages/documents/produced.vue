@@ -79,7 +79,7 @@ const handleDelete = (id: string) => {
     </div>
     <div v-else>
       <div class="flex flex-col items-center justify-center">
-        <NuxtImg src="/no-data.svg" width="300" height="300" />
+        <NuxtImg src="https://links.shoha-coder.uz/jira/no-data.svg" width="300" height="300" />
       </div>
     </div>
   </div>

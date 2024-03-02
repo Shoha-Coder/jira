@@ -9,7 +9,7 @@ export const tabs = [
     label: "Plan",
     description:
       "Break the big ideas down into manageable chunks across teams with user stories, issues, and tasks.",
-    image: "/Board.png",
+    image: "https://links.shoha-coder.uz/jira/Board.png",
     credentials: {
       text: "Work becomes a lot more visible when it's all in one place. It makes collaboration a whole lot easier.",
       username: "JEFF LAI",
@@ -20,7 +20,7 @@ export const tabs = [
     label: "Track",
     description:
       "Prioritize and discuss your team’s work in context with complete visibility at every level.",
-    image: "/Timeline.png",
+    image: "https://links.shoha-coder.uz/jira/Timeline.png",
     credentials: {
       text: "The pace of delivery from idea to reality has exploded.",
       username: "GREG FRANKLIN",
@@ -31,7 +31,7 @@ export const tabs = [
     label: "Release",
     description:
       "Ship faster, with confidence knowing the information you have is always up-to-date.",
-    image: "/Releases.png",
+    image: "https://links.shoha-coder.uz/jira/Releases.png",
     credentials: {
       text: "Less friction in the development process means better results and a faster time to market.",
       username: "LOUIS BENNETT",
@@ -42,7 +42,7 @@ export const tabs = [
     label: "Report",
     description:
       "Improve team performance in context, based on real-time, visual data.",
-    image: "/Insights.png",
+    image: "https://links.shoha-coder.uz/jira/Insights.png",
     credentials: {
       text: "Full visibility in Jira across the whole organization enables you to make better management judgment.",
       username: "PAUL LEAON",
@@ -53,7 +53,7 @@ export const tabs = [
     label: "Automate",
     description:
       "Save time, keep your team focused, and help work flow with no-code automation.",
-    image: "/Automation.png",
+    image: "https://links.shoha-coder.uz/jira/Automation.png",
     credentials: {
       text: "We’re saving 150 hours+ of valuable engineering time per month.",
       username: "JEFF LAI",
@@ -64,19 +64,19 @@ export const tabs = [
 export const templates = [
   {
     name: "Scrum",
-    image: "/scrum.svg",
+    image: "https://links.shoha-coder.uz/jira/scrum.svg",
   },
   {
     name: "Bug tracking",
-    image: "/bug.svg",
+    image: "https://links.shoha-coder.uz/jira/bug.svg",
   },
   {
     name: "Kanban",
-    image: "/document.svg",
+    image: "https://links.shoha-coder.uz/jira/document.svg",
   },
   {
     name: "DevOps",
-    image: "/devops.svg",
+    image: "https://links.shoha-coder.uz/jira/devops.svg",
   },
 ];
 

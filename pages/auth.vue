@@ -27,7 +27,7 @@ const authYandex = () =>
   <UiLoader v-if="loadingStore.isLoading" />
   <div class="flex items-center justify-center h-screen w-full relative" v-else>
     <NuxtImg
-      src="/bg-auth.jpg"
+      src="https://links.shoha-coder.uz/jira/bg-auth.jpg"
       class="absolute inset-0 w-full h-full object-cover z-10"
     />
     <div

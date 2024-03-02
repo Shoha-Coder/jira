@@ -10,7 +10,7 @@ const logout = () => router.push("/logout")
   >
     <div class="container mx-auto flex items-center h-full justify-between">
       <NuxtLink to="/" class="flex items-center space-x-1">
-        <NuxtImg src="/logo.svg" width="50" height="50" />
+        <NuxtImg src="https://links.shoha-coder.uz/jira/logo.svg" width="50" height="50" />
         <span class="text-2xl font-medium">Jira Software</span>
       </NuxtLink>
       <div class="flex items-center space-x-2">

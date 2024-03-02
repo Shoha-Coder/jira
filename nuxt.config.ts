@@ -4,7 +4,13 @@ export default defineNuxtConfig({
   modules: ["@nuxt/ui", "@nuxt/image", "@pinia/nuxt"],
   image: {
     format: ["avif", "png", "webp", "svg", "jpg"],
+    domains: ['https://links.shoha-coder.uz']
   },
-  pinia: {storesDirs: ["./store/**"]},
-  pages: true
+  pinia: { storesDirs: ["./store/**"] },
+  app: {
+    head: {
+      charset: "utf-8",
+      viewport: "width=device-width, initial-scale=1",
+    },
+  },
 });
