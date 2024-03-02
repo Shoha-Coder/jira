@@ -15,9 +15,13 @@ onMounted(() => {
 const isLogin = ref(true);
 const toggleLogin = () => (isLogin.value = !isLogin.value);
 const authGoogle = () =>
-  ACCOUNT.createOAuth2Session("google", "https://jira.shoha-coder.uz");
+  ACCOUNT.createOAuth2Session("google", "http://localhost:3000");
 const authGithub = () =>
-  ACCOUNT.createOAuth2Session("github", "https://jira.shoha-coder.uz");
+  ACCOUNT.createOAuth2Session("github", "http://localhost:3000");
+const authSpotify = () =>
+  ACCOUNT.createOAuth2Session("spotify", "http://localhost:3000");
+const authYandex = () =>
+  ACCOUNT.createOAuth2Session("yandex", "http://localhost:3000");
 </script>
 <template>
   <UiLoader v-if="loadingStore.isLoading" />
@@ -51,12 +55,22 @@ const authGithub = () =>
         <UButton color="black" block size="md" @click="authGithub">
           <Icon name="mdi:github" class="w-5 h-5" />
           <template v-if="isLogin"> Login with GitHub </template>
-          <template v-else> Login with Google </template>
+          <template v-else> Register with GitHub </template>
         </UButton>
         <UButton color="black" block size="md" @click="authGoogle">
           <Icon name="ri:google-fill" class="w-5 h-5" />
-          <template v-if="isLogin"> Register with GitHub </template>
+          <template v-if="isLogin"> Login with Google </template>
           <template v-else> Register with Google </template>
+        </UButton>
+        <UButton color="black" block size="md" @click="authSpotify">
+          <Icon name="ri:spotify-fill" class="w-5 h-5" />
+          <template v-if="isLogin"> Login with Spotify </template>
+          <template v-else> Register with Spotify </template>
+        </UButton>
+        <UButton color="black" block size="md" @click="authYandex">
+          <Icon name="gravity-ui:logo-yandex" class="w-5 h-5" />
+          <template v-if="isLogin"> Login with Yandex </template>
+          <template v-else> Register with Yandex </template>
         </UButton>
       </div>
     </UCard>
