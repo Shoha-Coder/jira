@@ -15,13 +15,13 @@ onMounted(() => {
 const isLogin = ref(true);
 const toggleLogin = () => (isLogin.value = !isLogin.value);
 const authGoogle = () =>
-  ACCOUNT.createOAuth2Session("google", "http://localhost:3000");
+  ACCOUNT.createOAuth2Session("google", "https://jira.shoha-coder.uz");
 const authGithub = () =>
-  ACCOUNT.createOAuth2Session("github", "http://localhost:3000");
+  ACCOUNT.createOAuth2Session("github", "https://jira.shoha-coder.uz");
 const authSpotify = () =>
-  ACCOUNT.createOAuth2Session("spotify", "http://localhost:3000");
+  ACCOUNT.createOAuth2Session("spotify", "https://jira.shoha-coder.uz");
 const authYandex = () =>
-  ACCOUNT.createOAuth2Session("yandex", "http://localhost:3000");
+  ACCOUNT.createOAuth2Session("yandex", "https://jira.shoha-coder.uz");
 </script>
 <template>
   <UiLoader v-if="loadingStore.isLoading" />
